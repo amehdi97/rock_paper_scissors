@@ -60,7 +60,7 @@
 
       function game(){
         for(i=0; i<5; i++){
-            alert('This is round ' + i + '\n' + 'The score is : \n' + 'Player: ' + playerScore + '                       Computer: ' + computerScore);
+            alert('This is round ' + i + '\n' + 'The score is : \n' + 'You: ' + playerScore + '                       Computer: ' + computerScore);
             playerSelection = prompt('rock, paper, or scissors?');
             computerSelection = computerPlay();
             alert(playRound(playerSelection, computerSelection));
